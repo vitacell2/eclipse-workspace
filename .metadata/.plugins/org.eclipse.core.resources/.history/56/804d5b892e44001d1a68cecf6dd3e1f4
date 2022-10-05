@@ -1,0 +1,54 @@
+package com.banco.domain;
+
+public class Cuenta {
+
+	// Atributos
+	private double saldo;
+	private double ingreso;
+	private double retiro;
+	
+	// constructor
+	public Cuenta()
+	{
+		this.saldo = 0;
+	}
+	
+	// metodos
+	public double getSaldo() {
+		return saldo;
+	}
+
+	public void setSaldo(double saldo) {
+		depositarSaldo();
+		this.saldo = saldo;
+	}
+	
+	public boolean depositarSaldo()
+	{
+		if (ingreso > 0)
+		{
+			this.saldo = saldo + ingreso;
+			System.out.printf("Se han añadido %f ", ingreso);
+			return true;
+		}else 
+		{
+			throw new RuntimeException("No hay dinero que depositar");
+			//return false;
+		}
+		//return true;
+	}
+	
+	public boolean retirarSaldo()
+	{
+		if (retiro <= saldo)
+		{
+			this.saldo = saldo - retiro;
+			return true;
+		}else
+		{
+			throw new RuntimeException("No se puede depositar nada");
+			//return false;
+		}
+	}
+
+}

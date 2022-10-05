@@ -1,0 +1,11 @@
+package com.banco.domain;
+
+public class Cliente {
+
+	// atributos
+	private String nombre = "";
+	private String apellido = "";
+	private long cuenta = 0;
+	
+	
+}

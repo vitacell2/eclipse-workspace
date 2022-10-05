@@ -1,0 +1,16 @@
+package com.banco.domain;
+
+public class Cuenta {
+
+	// Atributos
+	private double saldo;
+	
+	// constructor
+	public Cuenta()
+	{
+		this.saldo = 0;
+	}
+	
+	// Metodos
+	
+}

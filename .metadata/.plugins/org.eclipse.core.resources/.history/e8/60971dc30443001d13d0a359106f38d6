@@ -1,0 +1,9 @@
+package com.curso.varios;
+
+/*
+ * JVM cargar la clase com.curso.varios.Saludador
+ */
+
+public class Saludador {
+	
+}

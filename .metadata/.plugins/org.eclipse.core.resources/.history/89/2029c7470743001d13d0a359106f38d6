@@ -1,0 +1,25 @@
+package com.curso.pruebas;
+import com.curso.varios.Saludador;
+
+public class PruebasSaludador {
+
+	public static void main(String[] args) {
+		// Uso de la clase Saludador.java
+		
+		int numeroCamiones = 2; // * (int)Math.PI;
+		
+		// 1 - Se puede crear un objeto Saludador
+		// 		crear un objeto de la clase, instanciar un objeto de la clase
+		//		s1 es una variable de referencia que apunta a objetos de tipo Saludador
+		com.curso.varios.Saludador s1; 
+		// si da error, tienes que mencionar donde esta la clase Saludador
+		// De la clase Saludador, se puede utilizar "import" arriba, o en vez de eso, se puede referenciar con "com.curso.varios.*"
+		// pero habria que poner la referencia cada vez que escribes "Saludador"
+		  
+		// 2 - Pedir saludar pasando el nombre -> muestra "Hola" + nombre
+		// 3 - Pedir saludar sin nombre -> muestra "Hola Amigo"
+		 
+
+	}
+
+}

@@ -1,0 +1,12 @@
+package com.flota.dominio;
+
+public class Vehiculo {
+
+	// atributos
+	public double cargaMaxima;
+	
+	// constructores
+	
+	
+	// metodos
+}

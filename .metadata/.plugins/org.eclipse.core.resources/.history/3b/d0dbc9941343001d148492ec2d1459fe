@@ -1,0 +1,21 @@
+package com.flota.pruebas;
+
+import com.flota.dominio.Vehiculo;
+
+public class Pruebas {
+
+	public static void main(String[] args) {
+		Vehiculo camion = new Vehiculo();
+		
+		//camion.cargaMaxima = 555.25; // atributo cargaMaxima es public
+		
+		try
+		{
+			camion.setCargaMaxima(-55555);
+		}catch(Exception e)
+		{
+			System.out.println("No pudo cargar " + e.getMessage());
+		}
+	}
+
+}

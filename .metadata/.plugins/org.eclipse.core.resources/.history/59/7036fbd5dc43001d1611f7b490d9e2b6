@@ -1,0 +1,10 @@
+package com.banco.domain;
+
+public class Cuenta {
+
+	// Atributos
+	private double saldo = 0;
+	
+	// Metodos
+	
+}

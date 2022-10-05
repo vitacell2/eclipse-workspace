@@ -1,0 +1,10 @@
+package com.flota.dominio;
+
+public class Public {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

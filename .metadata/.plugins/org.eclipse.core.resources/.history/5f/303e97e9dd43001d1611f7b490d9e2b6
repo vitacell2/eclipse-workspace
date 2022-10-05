@@ -1,0 +1,28 @@
+package com.banco.domain;
+
+public class Cuenta {
+
+	// Atributos
+	private double saldo;
+	private double ingreso;
+	
+	// constructor
+	public Cuenta()
+	{
+		this.saldo = 0;
+	}
+	
+	// metodos
+	public double getSaldo() {
+		return saldo;
+	}
+
+	public boolean setSaldo(double saldo) {
+		//this.saldo = saldo;
+		if (ingreso >= 0) {
+			return true;
+		}
+	}
+	
+	
+}

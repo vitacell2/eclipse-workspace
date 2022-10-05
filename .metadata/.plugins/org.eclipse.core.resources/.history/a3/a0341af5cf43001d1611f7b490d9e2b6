@@ -1,0 +1,20 @@
+package com.curso.varios;
+
+public class EjemploVariablesPila {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a = 2;
+		
+	}
+
+	public static void metodo1(int numero)
+	{
+		int b = numero;
+	}
+	
+	public static void metodo2()
+	{
+		int c = 3;
+	}
+}

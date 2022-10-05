@@ -1,0 +1,9 @@
+package com.banco.domain;
+
+public class Cuenta {
+
+	// Atributos
+	
+	// Metodos
+	
+}
