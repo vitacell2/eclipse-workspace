@@ -9,7 +9,17 @@ public class Maquina {
 	public double efectivo;
 	
 	//constructor
-	
+	public Maquina(int refrescos, 
+		      int centimos,
+		      boolean compra, 
+		      double fectivo)
+	{
+		super();
+		this.refrescos = 34;
+		this.centimos = 1500;
+		this.compra = false;
+		this.efectivo = 0.0;
+	}
 	
 	//metodos
 	public void reponerRefresco() //reponer
@@ -27,7 +37,12 @@ public class Maquina {
 	
 	public void comprar() //cuando se pulsa el boton para ralizar la comprar
 	{
+		testStock();
 		comprobarEfectivo();
+		getRefrescoInfo();
+		
+		
+		
 		this.refrescos--;
 		
 	}
@@ -47,6 +62,16 @@ public class Maquina {
 	}
 	
 	public void devolverEuros()
+	{
+		
+	}
+	
+	public void getRefrescoInfo()
+	{
+		
+	}
+	
+	public void testStock()
 	{
 		
 	}
