@@ -40,19 +40,20 @@ public class Cuenta {
 	
 	public boolean retirarSaldo(double ingreso)
 	{
-		boolean resultado = false;
+		boolean seRetira = false;
 		if (retiro <= saldo)
 		{
 			this.saldo = saldo - retiro;
-			resultado = true;
+			seRetira = true;
+			setSaldo(saldo);
 			//return true;
 		}else
 		{
-			resultado = false;
+			seRetira = false;
 			throw new RuntimeException("No se retirar mas de lo que se tiene");
 			//return false;
 		}
-		return resultado;
+		return seRetira;
 	}
 
 }

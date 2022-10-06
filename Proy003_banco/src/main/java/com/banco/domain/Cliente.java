@@ -3,16 +3,16 @@ package com.banco.domain;
 public class Cliente {
 
 	// atributos
-	private String nombre = "Luis";
-	private String apellido = "Ramos";
+	private String nombre;
+	private String apellido;
 	private long cuenta = 0;
 	
 	// constructor
 	public Cliente (String nombre, String apellido, long cuenta)
 	{
-		this.nombre = nombre;
-		this.apellido = apellido;
-		this.cuenta = 0;
+		this.nombre = "Luis";
+		this.apellido = "Ramos";
+		this.cuenta = 23763467;
 	}
 
 	// getters & setters
@@ -39,6 +39,11 @@ public class Cliente {
 	public void setCuenta(long cuenta) {
 		this.cuenta = cuenta;
 	}
+
+	/*public void getSaldo() {
+		// TODO Auto-generated method stub
+		
+	}*/
 	
 	
 	
