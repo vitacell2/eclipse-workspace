@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="E:\Curos-Java-Angular\eclipse-workspace\Proy005_tictactoe\src\main\java\com\curso\tictactoe\Tictactoe.java"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -25,17 +26,10 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="com.banco"/>
-			<item value="Proy003_banco"/>
-			<item value="Proy003_banco.Proy003_banco"/>
 		</list>
 		<list key="groupId">
-			<item value="Proy003_banco"/>
-			<item value="3"/>
 		</list>
 		<list key="artifactId">
-			<item value="Proy003_banco"/>
-			<item value="3"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

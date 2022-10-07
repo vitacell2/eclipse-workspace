@@ -1560,3 +1560,274 @@
 2022-10-06 14:07:15,722 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy004_maquina_expendedora\src\main\resources
 2022-10-06 14:07:15,725 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-10-06 14:07:15,726 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy004_maquina_expendedora\src\test\resources
+2022-10-06 18:27:16,661 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-10-06 18:27:24,388 [Worker-2: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.curso:Proy001_JavaSE:0.0.1-SNAPSHOT @ /run/media/vita/BE40-62F0/Curos-Java-Angular/eclipse-workspace/Proy001_JavaSE/pom.xml.
+2022-10-06 18:27:25,200 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-06 18:27:25,200 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /run/media/vita/BE40-62F0/Curos-Java-Angular/eclipse-workspace/Proy001_JavaSE/src/main/resources
+2022-10-06 18:27:25,204 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-06 18:27:25,205 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /run/media/vita/BE40-62F0/Curos-Java-Angular/eclipse-workspace/Proy001_JavaSE/src/test/resources
+2022-10-06 18:27:28,664 [Worker-10: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.curso:Proy001_JavaSE:0.0.1-SNAPSHOT @ /run/media/vita/BE40-62F0/Curos-Java-Angular/eclipse-workspace/Proy001_JavaSE/pom.xml.
+2022-10-06 18:27:29,419 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-06 18:27:29,419 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /run/media/vita/BE40-62F0/Curos-Java-Angular/eclipse-workspace/Proy001_JavaSE/src/main/resources
+2022-10-06 18:27:29,421 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-06 18:27:29,421 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /run/media/vita/BE40-62F0/Curos-Java-Angular/eclipse-workspace/Proy001_JavaSE/src/test/resources
+2022-10-06 18:27:30,108 [Worker-10: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.flota:Proy002_flota:0.0.1-SNAPSHOT @ /run/media/vita/BE40-62F0/Curos-Java-Angular/eclipse-workspace/Proy002_flota/pom.xml.
+2022-10-06 18:27:30,710 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-06 18:27:30,710 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /run/media/vita/BE40-62F0/Curos-Java-Angular/eclipse-workspace/Proy002_flota/src/main/resources
+2022-10-06 18:27:30,711 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-06 18:27:30,712 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /run/media/vita/BE40-62F0/Curos-Java-Angular/eclipse-workspace/Proy002_flota/src/test/resources
+2022-10-06 18:27:32,919 [Worker-4: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.flota:Proy002_flota:0.0.1-SNAPSHOT @ /run/media/vita/BE40-62F0/Curos-Java-Angular/eclipse-workspace/Proy002_flota/pom.xml.
+2022-10-06 18:27:33,501 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-06 18:27:33,501 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /run/media/vita/BE40-62F0/Curos-Java-Angular/eclipse-workspace/Proy002_flota/src/main/resources
+2022-10-06 18:27:33,508 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-06 18:27:33,508 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /run/media/vita/BE40-62F0/Curos-Java-Angular/eclipse-workspace/Proy002_flota/src/test/resources
+2022-10-06 18:27:34,022 [Worker-4: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Proy003_banco:Proy003_banco:0.0.1-SNAPSHOT @ /run/media/vita/BE40-62F0/Curos-Java-Angular/eclipse-workspace/Proy003_banco/pom.xml.
+2022-10-06 18:27:34,616 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-06 18:27:34,616 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /run/media/vita/BE40-62F0/Curos-Java-Angular/eclipse-workspace/Proy003_banco/src/main/resources
+2022-10-06 18:27:34,618 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-06 18:27:34,618 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /run/media/vita/BE40-62F0/Curos-Java-Angular/eclipse-workspace/Proy003_banco/src/test/resources
+2022-10-06 18:27:36,481 [Worker-16: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Proy003_banco:Proy003_banco:0.0.1-SNAPSHOT @ /run/media/vita/BE40-62F0/Curos-Java-Angular/eclipse-workspace/Proy003_banco/pom.xml.
+2022-10-06 18:27:37,046 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-06 18:27:37,047 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /run/media/vita/BE40-62F0/Curos-Java-Angular/eclipse-workspace/Proy003_banco/src/main/resources
+2022-10-06 18:27:37,048 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-06 18:27:37,049 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /run/media/vita/BE40-62F0/Curos-Java-Angular/eclipse-workspace/Proy003_banco/src/test/resources
+2022-10-06 18:27:37,504 [Worker-16: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.curso:Proy004_maquina_expendedora:0.0.1-SNAPSHOT @ /run/media/vita/BE40-62F0/Curos-Java-Angular/eclipse-workspace/Proy004_maquina_expendedora/pom.xml.
+2022-10-06 18:27:37,923 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-06 18:27:37,927 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /run/media/vita/BE40-62F0/Curos-Java-Angular/eclipse-workspace/Proy004_maquina_expendedora/src/main/resources
+2022-10-06 18:27:37,929 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-06 18:27:37,932 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /run/media/vita/BE40-62F0/Curos-Java-Angular/eclipse-workspace/Proy004_maquina_expendedora/src/test/resources
+2022-10-06 18:27:40,349 [Worker-12: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.curso:Proy004_maquina_expendedora:0.0.1-SNAPSHOT @ /run/media/vita/BE40-62F0/Curos-Java-Angular/eclipse-workspace/Proy004_maquina_expendedora/pom.xml.
+2022-10-06 18:27:40,926 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-06 18:27:40,926 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /run/media/vita/BE40-62F0/Curos-Java-Angular/eclipse-workspace/Proy004_maquina_expendedora/src/main/resources
+2022-10-06 18:27:40,928 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-06 18:27:40,928 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /run/media/vita/BE40-62F0/Curos-Java-Angular/eclipse-workspace/Proy004_maquina_expendedora/src/test/resources
+2022-10-07 09:35:53,379 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-10-07 09:35:56,861 [Worker-8: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.curso:Proy001_JavaSE:0.0.1-SNAPSHOT @ E:\Curos-Java-Angular\eclipse-workspace\Proy001_JavaSE\pom.xml.
+2022-10-07 09:35:57,261 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-07 09:35:57,262 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy001_JavaSE\src\main\resources
+2022-10-07 09:35:57,277 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-07 09:35:57,278 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy001_JavaSE\src\test\resources
+2022-10-07 09:35:59,287 [Worker-8: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.curso:Proy001_JavaSE:0.0.1-SNAPSHOT @ E:\Curos-Java-Angular\eclipse-workspace\Proy001_JavaSE\pom.xml.
+2022-10-07 09:35:59,769 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-07 09:35:59,771 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy001_JavaSE\src\main\resources
+2022-10-07 09:35:59,776 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-07 09:35:59,776 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy001_JavaSE\src\test\resources
+2022-10-07 09:36:00,086 [Worker-8: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.flota:Proy002_flota:0.0.1-SNAPSHOT @ E:\Curos-Java-Angular\eclipse-workspace\Proy002_flota\pom.xml.
+2022-10-07 09:36:00,285 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-07 09:36:00,286 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy002_flota\src\main\resources
+2022-10-07 09:36:00,289 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-07 09:36:00,289 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy002_flota\src\test\resources
+2022-10-07 09:36:02,414 [Worker-12: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.flota:Proy002_flota:0.0.1-SNAPSHOT @ E:\Curos-Java-Angular\eclipse-workspace\Proy002_flota\pom.xml.
+2022-10-07 09:36:02,778 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-07 09:36:02,779 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy002_flota\src\main\resources
+2022-10-07 09:36:02,781 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-07 09:36:02,781 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy002_flota\src\test\resources
+2022-10-07 09:36:03,616 [Worker-16: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Proy003_banco:Proy003_banco:0.0.1-SNAPSHOT @ E:\Curos-Java-Angular\eclipse-workspace\Proy003_banco\pom.xml.
+2022-10-07 09:36:03,987 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-07 09:36:03,987 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy003_banco\src\main\resources
+2022-10-07 09:36:03,989 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-07 09:36:03,990 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy003_banco\src\test\resources
+2022-10-07 09:36:04,868 [Worker-7: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Proy003_banco:Proy003_banco:0.0.1-SNAPSHOT @ E:\Curos-Java-Angular\eclipse-workspace\Proy003_banco\pom.xml.
+2022-10-07 09:36:05,123 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-07 09:36:05,131 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy003_banco\src\main\resources
+2022-10-07 09:36:05,133 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-07 09:36:05,133 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy003_banco\src\test\resources
+2022-10-07 09:36:05,396 [Worker-7: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.curso:Proy004_maquina_expendedora:0.0.1-SNAPSHOT @ E:\Curos-Java-Angular\eclipse-workspace\Proy004_maquina_expendedora\pom.xml.
+2022-10-07 09:36:05,523 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-07 09:36:05,523 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy004_maquina_expendedora\src\main\resources
+2022-10-07 09:36:05,525 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-07 09:36:05,525 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy004_maquina_expendedora\src\test\resources
+2022-10-07 09:36:07,386 [Worker-11: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.curso:Proy004_maquina_expendedora:0.0.1-SNAPSHOT @ E:\Curos-Java-Angular\eclipse-workspace\Proy004_maquina_expendedora\pom.xml.
+2022-10-07 09:36:07,651 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-07 09:36:07,651 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy004_maquina_expendedora\src\main\resources
+2022-10-07 09:36:07,652 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-07 09:36:07,653 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy004_maquina_expendedora\src\test\resources
+2022-10-07 09:47:26,188 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-10-07 09:54:48,778 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-10-07 11:09:02,648 [Worker-21: Launching mavenrun-7ba8e714-281e-4172-ae45-4ea31d259df3] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\Curos-Java-Angular\eclipse-workspace
+2022-10-07 11:09:02,652 [Worker-21: Launching mavenrun-7ba8e714-281e-4172-ae45-4ea31d259df3] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -DarchetypeVersion=1.0.2 -Dpackage=com.curso.tictactoe -DarchetypeGroupId=org.spilth -DarchetypeArtifactId=java8-junit4-quickstart -DgroupId=com.curso.tictactoe -DartifactId=Proy005_tictactoe -DoutputDirectory=E:\Curos-Java-Angular\eclipse-workspace -Dversion=0.0.1-SNAPSHOT -Dstyle.color=always -U archetype:generate
+2022-10-07 11:09:35,138 [Worker-20: Creating java8-junit4-quickstart] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' E:\Curos-Java-Angular\eclipse-workspace\Proy005_tictactoe\pom.xml
+2022-10-07 11:09:36,314 [Worker-20: Creating java8-junit4-quickstart] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.curso.tictactoe:Proy005_tictactoe:0.0.1-SNAPSHOT @ E:\Curos-Java-Angular\eclipse-workspace\Proy005_tictactoe\pom.xml.
+2022-10-07 11:09:37,284 [Worker-20: Creating java8-junit4-quickstart] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Proy005_tictactoe/src/main/java
+2022-10-07 11:09:37,350 [Worker-20: Creating java8-junit4-quickstart] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Proy005_tictactoe/src/test/java
+2022-10-07 11:09:37,992 [Worker-20: Creating java8-junit4-quickstart] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 2 sec
+2022-10-07 11:09:39,746 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-07 11:09:39,746 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy001_JavaSE\src\main\resources
+2022-10-07 11:09:39,753 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-07 11:09:39,753 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy001_JavaSE\src\test\resources
+2022-10-07 11:09:40,804 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-07 11:09:40,804 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy002_flota\src\main\resources
+2022-10-07 11:09:40,807 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-07 11:09:40,807 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy002_flota\src\test\resources
+2022-10-07 11:09:41,628 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-07 11:09:41,628 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy003_banco\src\main\resources
+2022-10-07 11:09:41,630 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-07 11:09:41,630 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy003_banco\src\test\resources
+2022-10-07 11:09:43,210 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-07 11:09:43,210 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy004_maquina_expendedora\src\main\resources
+2022-10-07 11:09:43,212 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-07 11:09:43,212 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy004_maquina_expendedora\src\test\resources
+2022-10-07 11:09:43,744 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-07 11:09:43,744 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy005_tictactoe\src\main\resources
+2022-10-07 11:09:43,747 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-07 11:09:43,747 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy005_tictactoe\src\test\resources
+2022-10-07 11:10:18,952 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-07 11:10:18,953 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy005_tictactoe\src\main\resources
+2022-10-07 11:10:18,958 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-07 11:10:18,958 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy005_tictactoe\src\test\resources
+2022-10-07 11:16:52,566 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-07 11:16:52,567 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy005_tictactoe\src\main\resources
+2022-10-07 11:16:52,571 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-07 11:16:52,572 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy005_tictactoe\src\test\resources
+2022-10-07 11:20:53,606 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-07 11:20:53,606 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy005_tictactoe\src\main\resources
+2022-10-07 11:20:53,638 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-07 11:20:53,638 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy005_tictactoe\src\test\resources
+2022-10-07 11:21:45,344 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-07 11:21:45,345 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy005_tictactoe\src\main\resources
+2022-10-07 11:21:45,348 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-07 11:21:45,349 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy005_tictactoe\src\test\resources
+2022-10-07 11:22:17,523 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-07 11:22:17,523 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy005_tictactoe\src\main\resources
+2022-10-07 11:22:17,526 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-07 11:22:17,527 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy005_tictactoe\src\test\resources
+2022-10-07 11:23:35,320 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-07 11:23:35,321 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy005_tictactoe\src\main\resources
+2022-10-07 11:23:35,327 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-07 11:23:35,327 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy005_tictactoe\src\test\resources
+2022-10-07 11:24:10,440 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-07 11:24:10,440 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy005_tictactoe\src\main\resources
+2022-10-07 11:24:10,444 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-07 11:24:10,444 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy005_tictactoe\src\test\resources
+2022-10-07 12:08:31,525 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-07 12:08:31,527 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy005_tictactoe\src\main\resources
+2022-10-07 12:08:31,531 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-07 12:08:31,531 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy005_tictactoe\src\test\resources
+2022-10-07 12:09:55,275 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-07 12:09:55,276 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy005_tictactoe\src\main\resources
+2022-10-07 12:09:55,279 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-07 12:09:55,280 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy005_tictactoe\src\test\resources
+2022-10-07 12:10:13,166 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-07 12:10:13,167 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy005_tictactoe\src\main\resources
+2022-10-07 12:10:13,171 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-07 12:10:13,171 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy005_tictactoe\src\test\resources
+2022-10-07 12:11:23,182 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-07 12:11:23,182 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy005_tictactoe\src\main\resources
+2022-10-07 12:11:23,193 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-07 12:11:23,193 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy005_tictactoe\src\test\resources
+2022-10-07 12:14:30,077 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-07 12:14:30,078 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy005_tictactoe\src\main\resources
+2022-10-07 12:14:30,082 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-07 12:14:30,083 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy005_tictactoe\src\test\resources
+2022-10-07 12:15:39,048 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-07 12:15:39,048 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy005_tictactoe\src\main\resources
+2022-10-07 12:15:39,052 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-07 12:15:39,052 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy005_tictactoe\src\test\resources
+2022-10-07 12:16:17,375 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-07 12:16:17,376 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy005_tictactoe\src\main\resources
+2022-10-07 12:16:17,379 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-07 12:16:17,379 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy005_tictactoe\src\test\resources
+2022-10-07 12:16:46,047 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-07 12:16:46,047 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy005_tictactoe\src\main\resources
+2022-10-07 12:16:46,081 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-07 12:16:46,081 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy005_tictactoe\src\test\resources
+2022-10-07 12:22:30,303 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-07 12:22:30,305 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy005_tictactoe\src\main\resources
+2022-10-07 12:22:30,315 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-07 12:22:30,316 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy005_tictactoe\src\test\resources
+2022-10-07 12:26:28,824 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-07 12:26:28,825 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy005_tictactoe\src\main\resources
+2022-10-07 12:26:28,848 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-07 12:26:28,848 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy005_tictactoe\src\test\resources
+2022-10-07 12:28:37,473 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-07 12:28:37,474 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy005_tictactoe\src\main\resources
+2022-10-07 12:28:37,479 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-07 12:28:37,479 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy005_tictactoe\src\test\resources
+2022-10-07 12:28:53,806 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-07 12:28:53,807 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy005_tictactoe\src\main\resources
+2022-10-07 12:28:53,837 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-07 12:28:53,837 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy005_tictactoe\src\test\resources
+2022-10-07 12:31:26,420 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-07 12:31:26,421 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy005_tictactoe\src\main\resources
+2022-10-07 12:31:26,426 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-07 12:31:26,426 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy005_tictactoe\src\test\resources
+2022-10-07 12:31:56,078 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-07 12:31:56,078 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy005_tictactoe\src\main\resources
+2022-10-07 12:31:56,083 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-07 12:31:56,083 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy005_tictactoe\src\test\resources
+2022-10-07 12:32:12,005 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-07 12:32:12,006 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy005_tictactoe\src\main\resources
+2022-10-07 12:32:12,020 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-07 12:32:12,021 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy005_tictactoe\src\test\resources
+2022-10-07 12:36:55,618 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-07 12:36:55,618 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy005_tictactoe\src\main\resources
+2022-10-07 12:36:55,624 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-07 12:36:55,624 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy005_tictactoe\src\test\resources
+2022-10-07 12:38:05,024 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-07 12:38:05,025 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy005_tictactoe\src\main\resources
+2022-10-07 12:38:05,029 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-07 12:38:05,030 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy005_tictactoe\src\test\resources
+2022-10-07 12:57:43,925 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-07 12:57:43,926 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy005_tictactoe\src\main\resources
+2022-10-07 12:57:43,929 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-07 12:57:43,929 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy005_tictactoe\src\test\resources
+2022-10-07 13:21:04,172 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-07 13:21:04,173 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy005_tictactoe\src\main\resources
+2022-10-07 13:21:04,177 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-07 13:21:04,177 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy005_tictactoe\src\test\resources
+2022-10-07 13:21:13,192 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-07 13:21:13,192 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy005_tictactoe\src\main\resources
+2022-10-07 13:21:13,195 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-07 13:21:13,195 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy005_tictactoe\src\test\resources
+2022-10-07 13:39:05,576 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-07 13:39:05,577 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy005_tictactoe\src\main\resources
+2022-10-07 13:39:05,591 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-07 13:39:05,591 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy005_tictactoe\src\test\resources
+2022-10-07 13:40:20,298 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-07 13:40:20,298 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy005_tictactoe\src\main\resources
+2022-10-07 13:40:20,302 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-07 13:40:20,302 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy005_tictactoe\src\test\resources
+2022-10-07 13:40:55,030 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-07 13:40:55,031 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy005_tictactoe\src\main\resources
+2022-10-07 13:40:55,035 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-07 13:40:55,035 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy005_tictactoe\src\test\resources
+2022-10-07 13:41:04,587 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-07 13:41:04,587 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy005_tictactoe\src\main\resources
+2022-10-07 13:41:04,590 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-07 13:41:04,600 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy005_tictactoe\src\test\resources
+2022-10-07 13:41:22,928 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-07 13:41:22,929 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy005_tictactoe\src\main\resources
+2022-10-07 13:41:22,932 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-07 13:41:22,932 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy005_tictactoe\src\test\resources
+2022-10-07 13:41:54,664 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-07 13:41:54,664 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy005_tictactoe\src\main\resources
+2022-10-07 13:41:54,668 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-07 13:41:54,668 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy005_tictactoe\src\test\resources
+2022-10-07 13:43:20,866 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-07 13:43:20,867 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy005_tictactoe\src\main\resources
+2022-10-07 13:43:20,870 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-07 13:43:20,870 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy005_tictactoe\src\test\resources
+2022-10-07 13:47:08,562 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-07 13:47:08,562 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy005_tictactoe\src\main\resources
+2022-10-07 13:47:08,564 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-07 13:47:08,564 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy005_tictactoe\src\test\resources
+2022-10-07 13:47:14,488 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-07 13:47:14,490 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy005_tictactoe\src\main\resources
+2022-10-07 13:47:14,494 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-07 13:47:14,494 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy005_tictactoe\src\test\resources
+2022-10-07 13:49:06,520 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-07 13:49:06,521 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy005_tictactoe\src\main\resources
+2022-10-07 13:49:06,525 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-07 13:49:06,525 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy005_tictactoe\src\test\resources
+2022-10-07 13:50:43,411 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-07 13:50:43,443 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy005_tictactoe\src\main\resources
+2022-10-07 13:50:43,452 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-07 13:50:43,453 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy005_tictactoe\src\test\resources
+2022-10-07 13:51:00,638 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-07 13:51:00,638 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy005_tictactoe\src\main\resources
+2022-10-07 13:51:00,657 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-07 13:51:00,658 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy005_tictactoe\src\test\resources
+2022-10-07 14:29:44,509 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-07 14:29:44,510 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy005_tictactoe\src\main\resources
+2022-10-07 14:29:44,514 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-07 14:29:44,514 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy005_tictactoe\src\test\resources
