@@ -1,38 +1,33 @@
 package com.curso.varios;
 
 /*
- * JVM cargar la clase com.curso.varios.Saludador
+ *   JVM  cargar la clase com.curso.varios.Saludador  (Full Qualified Name)
  */
 
-public class Saludador
-{
-	// las clases estan formadas por:
-	
-	// -atributos
+public class Saludador {
+
+	// atributos
 	private String saludo;
-	
-	// -constructores (diferemcia de de metodos, los constructores no devuelven nada) (no poner "void" a un constructor, "void" es para metodos)
-	public Saludador() //ahora puedes crear objetos saludador
-	{
+
+	// constructores
+	public Saludador() {   //constructor
 		super();
 		this.saludo = "Hola";
 	}
-//	public Saludador()
-//	{
-//		super();
-//	}
-	
-	// -metodos
-	// definimos un metodo
-	public String saluda (String nombreUsuario)
-	{
-		return "Hola " + nombreUsuario;
-		//return null;
+	// public void Saludador() { } // OJO esto es un método
+
+	public Saludador(String saludo) {
+		this.saludo = saludo;
 	}
-	
-	// definimos otro metodo
-	public String saluda()
-	{
-		return this.saludo + " Amigo";
+
+	// métodos
+	public String saluda(String nombreUsuario) {
+		return this.saludo + nombreUsuario;
 	}
+
+	// sobrecargar el metodo
+	public String saluda() {
+		return  this.saludo + " Amigo";
+	}
+
 }

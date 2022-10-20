@@ -3,4 +3,9 @@
     <fullyQualifiedTypeName name="com.flota.dominio.Vehiculo"/>
     <fullyQualifiedTypeName name="java.lang.Exception"/>
     <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+    <fullyQualifiedTypeName name="com.curso.mercado.servicios.ProductosService"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="com.curso.mercado.servicios.VentasService"/>
+    <fullyQualifiedTypeName name="com.curso.mercado.servicios.excepciones.VentasException"/>
+    <fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
 </qualifiedTypeNameHistroy>

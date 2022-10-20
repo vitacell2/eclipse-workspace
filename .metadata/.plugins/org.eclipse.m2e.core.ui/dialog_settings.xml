@@ -2,6 +2,8 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="E:\Curos-Java-Angular\eclipse-workspace\Proy007_MercadoWeb"/>
+			<item value="E:\Curos-Java-Angular\eclipse-workspace\Proy008_Maven_web_mercado"/>
 			<item value="E:\Curos-Java-Angular\eclipse-workspace\Proy005_tictactoe\src\main\java\com\curso\tictactoe\Tictactoe.java"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -26,10 +28,22 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.curso.bankweb"/>
+			<item value="com.curso.tienda"/>
+			<item value="com.curso.mercado"/>
+			<item value="com.interfaces"/>
 		</list>
 		<list key="groupId">
+			<item value="com.curso"/>
+			<item value="Interfaces"/>
 		</list>
 		<list key="artifactId">
+			<item value="BankWeb"/>
+			<item value="Proy008_MavenTiendaOnlie"/>
+			<item value="Proy008_Maven_web_mercado"/>
+			<item value="Proy009_Mave_web_mercado"/>
+			<item value="Proy008_Maven_Web_Mercado"/>
+			<item value="Proy006_interfaces"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -65,5 +79,24 @@
 	<section name="org.eclipse.m2e.core.pom.overview">
 	</section>
 	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
+		<item key="width" value="480"/>
+		<item key="height" value="450"/>
+		<item key="x" value="280"/>
+		<item key="y" value="223"/>
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="E:\Curos-Java-Angular\eclipse-workspace"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
 	</section>
 </section>
