@@ -28,6 +28,7 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.curso.rrhh"/>
 			<item value="com.curso.bankweb"/>
 			<item value="com.curso.tienda"/>
 			<item value="com.curso.mercado"/>
@@ -38,6 +39,7 @@
 			<item value="Interfaces"/>
 		</list>
 		<list key="artifactId">
+			<item value="Proy009_RRHH_BaseDatos_JDBC"/>
 			<item value="BankWeb"/>
 			<item value="Proy008_MavenTiendaOnlie"/>
 			<item value="Proy008_Maven_web_mercado"/>
@@ -77,6 +79,14 @@
 		</list>
 	</section>
 	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
 	</section>
 	<section name="org.eclipse.m2e.core.pom.dependencies">
 	</section>

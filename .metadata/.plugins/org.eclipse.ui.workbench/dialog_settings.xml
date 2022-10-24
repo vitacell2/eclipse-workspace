@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="NewWizardAction">
-		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.m2e.core.wizards.Maven2ProjectWizard"/>
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.jst.servlet.ui.internal.wizard.AddServletWizard"/>
 		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
-			<item value="org.eclipse.m2e"/>
+			<item value="org.eclipse.wst.web.ui"/>
 		</list>
 	</section>
 	<section name="ImportExportAction">
@@ -13,10 +13,10 @@
 		</list>
 	</section>
 	<section name="InstallationDialogSettings">
-		<item key="DIALOG_X_ORIGIN" value="0"/>
-		<item key="DIALOG_Y_ORIGIN" value="0"/>
-		<item key="DIALOG_WIDTH" value="1024"/>
-		<item key="DIALOG_HEIGHT" value="1155"/>
-		<item key="DIALOG_FONT_NAME" value="1|Noto Sans|11.0|0|GTK|1|"/>
+		<item key="DIALOG_X_ORIGIN" value="-79"/>
+		<item key="DIALOG_Y_ORIGIN" value="-24"/>
+		<item key="DIALOG_WIDTH" value="809"/>
+		<item key="DIALOG_HEIGHT" value="682"/>
+		<item key="DIALOG_FONT_NAME" value="1|PT Sans|8.0|0|GTK|1|"/>
 	</section>
 </section>
