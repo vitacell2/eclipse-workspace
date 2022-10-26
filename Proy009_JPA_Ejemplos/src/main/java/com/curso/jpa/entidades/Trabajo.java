@@ -7,9 +7,11 @@ import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
+import javax.persistence.Transient;
 
 @Entity // son para saber como montar los JQuery
 @Table (name = "JOBS", schema = "HR")
+
 public class Trabajo implements Serializable
 {
 	/*
@@ -28,15 +30,15 @@ public class Trabajo implements Serializable
 	@Column (name = "MAX_SALARY")
 	private Double salarioMax;
 	
+	@Transient
+	private boolean isSelected;
+	
 	//CONSTRUCTOR
 	public Trabajo()
 	{
 		
 	}
 
-	
-	
-	
 	public Trabajo(String id, String tituloTrabajo, Double salarioMin, Double salarioMax) {
 		super();
 		this.id = id;
