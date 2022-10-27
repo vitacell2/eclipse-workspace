@@ -19,6 +19,14 @@
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
 	</properties>
+	
+	<repositories>
+		<repository>
+			<id>EclipseLink Repo</id>
+			<url>http://download.eclipse.org/rt/eclipselink/maven.repo</url>
+			<name>EclipseLink Repo</name>
+		</repository>
+	</repositories>
 
 	<dependencies>
 		<dependency>
@@ -44,6 +52,18 @@
 			<artifactId>ojdbc8</artifactId>
 			<version>21.1.0.0</version>
 		</dependency>
+		
+		<dependency>
+			<groupId>org.eclipse.persistence</groupId>
+			<artifactId>eclipselink</artifactId>
+			<version>2.2.1</version>
+		</dependency>
+		<dependency>
+			<groupId>org.eclipse.persistence</groupId>
+			<artifactId>javax.persistence</artifactId>
+			<version>2.0.3</version>
+		</dependency>
+		
 	</dependencies>
 
 	<build>

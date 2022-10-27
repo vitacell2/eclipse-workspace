@@ -39,4 +39,5 @@
     <fullyQualifiedTypeName name="javax.persistence.Table"/>
     <fullyQualifiedTypeName name="java.util.Collection"/>
     <fullyQualifiedTypeName name="javax.persistence.FetchType"/>
+    <fullyQualifiedTypeName name="com.curso.mercado.entidades.Producto"/>
 </qualifiedTypeNameHistroy>
