@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="E:\Curos-Java-Angular\eclipse-workspace\TiendaOnline\src\main\java\com\curso\mercado\servicios\ProductosServiceJPA.java"/>
 			<item value="E:\Curos-Java-Angular\git\begonaOlea\TWGRUPO5\TWGRUPO5\TiendaOnline\src\main\java\com\curso\mercado\persistencia\ProductoDataBaseDAO.java"/>
 			<item value="E:\Curos-Java-Angular\eclipse-workspace\Proy007_MercadoWeb"/>
 			<item value="E:\Curos-Java-Angular\eclipse-workspace\Proy008_Maven_web_mercado"/>
@@ -29,6 +30,7 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.curso.Proy010_Spring_barebones"/>
 			<item value="com.curso.jpa"/>
 			<item value="com.curso.rrhh"/>
 			<item value="com.curso.bankweb"/>
@@ -41,6 +43,7 @@
 			<item value="Interfaces"/>
 		</list>
 		<list key="artifactId">
+			<item value="Proy010_Spring_barebones"/>
 			<item value="Proy009_JPA_Ejemplos"/>
 			<item value="Proy009_RRHH_BaseDatos_JDBC"/>
 			<item value="BankWeb"/>

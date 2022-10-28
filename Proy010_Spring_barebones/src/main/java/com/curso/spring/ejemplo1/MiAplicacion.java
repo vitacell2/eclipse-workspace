@@ -27,6 +27,9 @@ public class MiAplicacion {
 		System.out.println("mySaludador1: " + mySaludador1);
 		SaludoService mySaludador2 = (SaludoService) myAppContext.getBean("saludadorPrototipo");
 		System.out.println("mySaludador2: " + mySaludador2);
+		
+		SaludoService myServAdios = (SaludoService) myAppContext.getBean("saludadorAdios");
+		myServAdios.saludar("Soy saludador");
 
 	}
 

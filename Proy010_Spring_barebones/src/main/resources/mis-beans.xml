@@ -15,5 +15,10 @@
          class="com.curso.spring.ejemplo1.SaludoServiceImp"
          scope="prototype"></bean> 
          
+     <!--  Como instanciar un bean pasandole arg al construct -->
+     <bean id="saludadorAdios" 
+     class="com.curso.spring.ejemplo1.SaludoServiceImp">
+     <constructor-arg index="0" value="adios"></constructor-arg>
+     </bean>
 
 </beans>

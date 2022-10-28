@@ -10991,3 +10991,179 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.eclipse.p
 2022-10-28 12:29:49,529 [Worker-142: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
 2022-10-28 12:29:49,573 [Worker-142: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-10-28 12:29:49,574 [Worker-142: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy010_Spring_barebones\src\test\resources
+2022-10-28 12:55:49,227 [Worker-142: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-28 12:55:49,235 [Worker-142: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-28 12:55:49,242 [Worker-142: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-28 12:55:49,243 [Worker-142: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy010_Spring_barebones\src\test\resources
+2022-10-28 12:56:10,407 [Worker-161: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-28 12:56:10,412 [Worker-161: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-28 12:56:10,415 [Worker-161: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-28 12:56:10,416 [Worker-161: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy010_Spring_barebones\src\test\resources
+2022-10-28 12:57:02,732 [Worker-155: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-28 12:57:02,737 [Worker-155: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-28 12:57:02,741 [Worker-155: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-28 12:57:02,742 [Worker-155: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy010_Spring_barebones\src\test\resources
+2022-10-28 12:57:24,088 [Worker-156: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-28 12:57:24,094 [Worker-156: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-28 12:57:24,098 [Worker-156: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-28 12:57:24,098 [Worker-156: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy010_Spring_barebones\src\test\resources
+2022-10-28 12:57:37,458 [Worker-160: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-28 12:57:37,463 [Worker-160: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-28 12:57:37,467 [Worker-160: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-28 12:57:37,468 [Worker-160: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy010_Spring_barebones\src\test\resources
+2022-10-28 13:00:02,180 [Worker-159: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-28 13:00:02,181 [Worker-159: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-28 13:00:02,220 [Worker-159: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-28 13:00:02,220 [Worker-159: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy010_Spring_barebones\src\test\resources
+2022-10-28 13:00:31,973 [Worker-160: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-28 13:00:31,975 [Worker-160: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-28 13:00:32,018 [Worker-160: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-28 13:00:32,018 [Worker-160: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy010_Spring_barebones\src\test\resources
+2022-10-28 13:00:38,048 [Worker-164: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-28 13:00:38,049 [Worker-164: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-28 13:00:38,089 [Worker-164: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-28 13:00:38,090 [Worker-164: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy010_Spring_barebones\src\test\resources
+2022-10-28 13:02:55,431 [Worker-158: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-28 13:02:55,436 [Worker-158: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-28 13:02:55,439 [Worker-158: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-28 13:02:55,440 [Worker-158: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy010_Spring_barebones\src\test\resources
+2022-10-28 13:03:03,336 [Worker-165: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-28 13:03:03,343 [Worker-165: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-28 13:03:03,350 [Worker-165: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-28 13:03:03,352 [Worker-165: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy010_Spring_barebones\src\test\resources
+2022-10-28 13:03:39,716 [Worker-160: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-28 13:03:39,719 [Worker-160: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-28 13:03:39,765 [Worker-160: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-28 13:03:39,766 [Worker-160: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy010_Spring_barebones\src\test\resources
+2022-10-28 13:05:13,721 [Worker-142: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-28 13:05:13,723 [Worker-142: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-28 13:05:13,761 [Worker-142: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-28 13:05:13,762 [Worker-142: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy010_Spring_barebones\src\test\resources
+2022-10-28 13:06:16,063 [Worker-159: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-28 13:06:16,071 [Worker-159: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-28 13:06:16,077 [Worker-159: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-28 13:06:16,078 [Worker-159: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy010_Spring_barebones\src\test\resources
+2022-10-28 13:06:18,530 [Worker-160: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-28 13:06:18,536 [Worker-160: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-28 13:06:18,541 [Worker-160: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-28 13:06:18,543 [Worker-160: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy010_Spring_barebones\src\test\resources
+2022-10-28 13:08:22,678 [Worker-167: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-28 13:08:22,683 [Worker-167: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-28 13:08:22,688 [Worker-167: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-28 13:08:22,688 [Worker-167: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy010_Spring_barebones\src\test\resources
+2022-10-28 13:08:51,901 [Worker-167: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-28 13:08:51,905 [Worker-167: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-28 13:08:51,908 [Worker-167: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-28 13:08:51,909 [Worker-167: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy010_Spring_barebones\src\test\resources
+2022-10-28 13:19:52,678 [Worker-171: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-28 13:19:52,683 [Worker-171: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-28 13:19:52,687 [Worker-171: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-28 13:19:52,688 [Worker-171: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy010_Spring_barebones\src\test\resources
+2022-10-28 13:20:14,608 [Worker-173: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-28 13:20:14,614 [Worker-173: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-28 13:20:14,619 [Worker-173: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-28 13:20:14,620 [Worker-173: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy010_Spring_barebones\src\test\resources
+2022-10-28 13:20:30,480 [Worker-173: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-28 13:20:30,489 [Worker-173: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-28 13:20:30,496 [Worker-173: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-28 13:20:30,497 [Worker-173: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy010_Spring_barebones\src\test\resources
+2022-10-28 13:21:00,366 [Worker-171: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-28 13:21:00,450 [Worker-171: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-28 13:21:00,460 [Worker-171: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-28 13:21:00,462 [Worker-171: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy010_Spring_barebones\src\test\resources
+2022-10-28 13:21:16,424 [Worker-171: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-28 13:21:16,429 [Worker-171: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-28 13:21:16,433 [Worker-171: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-28 13:21:16,434 [Worker-171: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy010_Spring_barebones\src\test\resources
+2022-10-28 13:22:21,178 [Worker-174: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-28 13:22:21,186 [Worker-174: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-28 13:22:21,192 [Worker-174: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-28 13:22:21,193 [Worker-174: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy010_Spring_barebones\src\test\resources
+2022-10-28 13:22:34,558 [Worker-174: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-28 13:22:34,563 [Worker-174: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-28 13:22:34,567 [Worker-174: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-28 13:22:34,568 [Worker-174: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy010_Spring_barebones\src\test\resources
+2022-10-28 13:23:07,246 [Worker-171: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-28 13:23:07,251 [Worker-171: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-28 13:23:07,296 [Worker-171: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-28 13:23:07,297 [Worker-171: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy010_Spring_barebones\src\test\resources
+2022-10-28 13:23:19,972 [Worker-171: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-28 13:23:19,976 [Worker-171: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-28 13:23:19,980 [Worker-171: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-28 13:23:19,981 [Worker-171: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy010_Spring_barebones\src\test\resources
+2022-10-28 13:25:20,208 [Worker-175: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-28 13:25:20,223 [Worker-175: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-28 13:25:20,236 [Worker-175: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-28 13:25:20,238 [Worker-175: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy010_Spring_barebones\src\test\resources
+2022-10-28 13:26:04,482 [Worker-160: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-28 13:26:04,487 [Worker-160: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-28 13:26:04,491 [Worker-160: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-28 13:26:04,492 [Worker-160: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy010_Spring_barebones\src\test\resources
+2022-10-28 13:26:43,594 [Worker-172: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-28 13:26:43,600 [Worker-172: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-28 13:26:43,605 [Worker-172: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-28 13:26:43,605 [Worker-172: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy010_Spring_barebones\src\test\resources
+2022-10-28 13:26:48,653 [Worker-171: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-28 13:26:48,660 [Worker-171: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-28 13:26:48,668 [Worker-171: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-28 13:26:48,669 [Worker-171: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy010_Spring_barebones\src\test\resources
+2022-10-28 13:28:21,738 [Worker-171: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-28 13:28:21,741 [Worker-171: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-28 13:28:21,781 [Worker-171: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-28 13:28:21,783 [Worker-171: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy010_Spring_barebones\src\test\resources
+2022-10-28 13:28:36,960 [Worker-171: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-28 13:28:36,962 [Worker-171: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-28 13:28:37,007 [Worker-171: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-28 13:28:37,008 [Worker-171: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy010_Spring_barebones\src\test\resources
+2022-10-28 13:28:44,809 [Worker-171: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-28 13:28:44,811 [Worker-171: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-28 13:28:44,862 [Worker-171: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-28 13:28:44,864 [Worker-171: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy010_Spring_barebones\src\test\resources
+2022-10-28 13:28:57,587 [Worker-178: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-28 13:28:57,589 [Worker-178: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-28 13:28:57,631 [Worker-178: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-28 13:28:57,632 [Worker-178: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy010_Spring_barebones\src\test\resources
+2022-10-28 13:31:43,126 [Worker-184: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-28 13:31:43,128 [Worker-184: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-28 13:31:43,180 [Worker-184: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-28 13:31:43,180 [Worker-184: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy010_Spring_barebones\src\test\resources
+2022-10-28 13:32:08,797 [Worker-186: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-28 13:32:08,799 [Worker-186: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-28 13:32:08,839 [Worker-186: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-28 13:32:08,839 [Worker-186: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy010_Spring_barebones\src\test\resources
+2022-10-28 13:36:05,993 [Worker-189: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-28 13:36:05,999 [Worker-189: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-10-28 13:36:06,003 [Worker-189: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-28 13:36:06,004 [Worker-189: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy010_Spring_barebones\src\test\resources
+2022-10-28 13:37:30,143 [Worker-189: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-28 13:37:30,149 [Worker-189: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-10-28 13:37:30,155 [Worker-189: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-28 13:37:30,156 [Worker-189: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy010_Spring_barebones\src\test\resources
+2022-10-28 13:38:13,089 [Worker-177: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-28 13:38:13,094 [Worker-177: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-10-28 13:38:13,104 [Worker-177: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-28 13:38:13,106 [Worker-177: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy010_Spring_barebones\src\test\resources
+2022-10-28 13:38:55,803 [Worker-186: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-28 13:38:55,855 [Worker-186: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-10-28 13:38:55,906 [Worker-186: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-28 13:38:55,907 [Worker-186: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy010_Spring_barebones\src\test\resources
+2022-10-28 13:41:32,099 [Worker-189: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-28 13:41:32,106 [Worker-189: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-10-28 13:41:32,121 [Worker-189: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-28 13:41:32,123 [Worker-189: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy010_Spring_barebones\src\test\resources
+2022-10-28 13:41:56,243 [Worker-160: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-28 13:41:56,255 [Worker-160: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-10-28 13:41:56,264 [Worker-160: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-28 13:41:56,265 [Worker-160: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy010_Spring_barebones\src\test\resources
+2022-10-28 13:42:09,874 [Worker-177: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-28 13:42:09,879 [Worker-177: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-10-28 13:42:09,884 [Worker-177: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-28 13:42:09,884 [Worker-177: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy010_Spring_barebones\src\test\resources
+2022-10-28 13:42:33,835 [Worker-160: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-28 13:42:33,840 [Worker-160: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-10-28 13:42:33,846 [Worker-160: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-28 13:42:33,847 [Worker-160: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy010_Spring_barebones\src\test\resources
+2022-10-28 13:46:01,652 [Worker-186: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-28 13:46:01,662 [Worker-186: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-10-28 13:46:01,670 [Worker-186: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-28 13:46:01,671 [Worker-186: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Curos-Java-Angular\eclipse-workspace\Proy010_Spring_barebones\src\test\resources
