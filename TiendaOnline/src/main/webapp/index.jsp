@@ -21,7 +21,8 @@
     
     
     <c:if  test="${sessionScope.usuario.rol == 'administrador'}" > 
-   		 <a class="btn btn-primary" href="alta-producto.jsp" role="button">Alta Producto</a>
+   		 <a class="btn btn-primary" href="alta-producto.jsp" role="button">Alta Producto DAO</a>
+   		 <a class="btn btn-primary" href="alta-producto-JPA.jsp" role="button">Alta Producto DAO con JPA</a>
     </c:if>
     <a class="btn btn-primary" href="listaProductos" role="button">Lista Productos</a>
     

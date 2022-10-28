@@ -134,13 +134,16 @@ WHERE D.LOCATION_ID= 1700;
 		List<Predicate> condiciones = new ArrayList();
 		
 		//si me has pasado un nombre de empleado lo añado en el where
-		if( nombre != null) {
+		if( nombre != null) 
+		{
 			condiciones.add(cb.equal(empleado.get("nombre"), nombre));			
 		}
-		if( apellido != null) {
-			condiciones.add(cb.equal(empleado.get("apellidos"), apellido));			
+		if( apellido != null) 
+		{
+			condiciones.add(cb.equal(empleado.get("apellidos"), apellido));
 		}		
-		if( salario != null) {
+		if( salario != null) 
+		{
 			condiciones.add(cb.greaterThan(empleado.get("salario"), salario));
 		}
 		
