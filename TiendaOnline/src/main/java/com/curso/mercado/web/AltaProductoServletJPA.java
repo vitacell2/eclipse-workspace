@@ -10,10 +10,10 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.curso.mercado.entidades.Producto;
-import com.curso.mercado.servicios.ProductosService;
+import com.curso.mercado.entidades.ProductoJPA;
+import com.curso.mercado.servicios.ProductosServiceJPA;
 
-@WebServlet(urlPatterns = "altaProductoJPA",loadOnStartup = 2)
+@WebServlet(urlPatterns = "altaProductoJPA",loadOnStartup = 4)
 public class AltaProductoServletJPA extends HttpServlet
 {
 	
@@ -22,7 +22,7 @@ public class AltaProductoServletJPA extends HttpServlet
       
 	
 	//ATRIBUTOS
-    ProductosService productoService = new ProductosService();
+    ProductosServiceJPA myProductoServiceJPA = new ProductosServiceJPA();
 	
     //CONSTRUCTORES
     public AltaProductoServletJPA() {
@@ -45,6 +45,7 @@ public class AltaProductoServletJPA extends HttpServlet
 		// Cogemos parametros introducidos por el usuario, con "alta-producto-JPA.jsp"
 		String paramDescripcion = request.getParameter("descripcion");
 		String paramPrecio = request.getParameter("precioUnidad");
+		String paramStock = request.getParameter("stock");
 		
 		//validar parametros
 		String msgError = "";
@@ -62,6 +63,15 @@ public class AltaProductoServletJPA extends HttpServlet
 		}else {
 			// String precio convertimos en un double
 			precio = Double.parseDouble(paramPrecio); //falta controlar excepcion
+		}
+		
+		// comprobamos que haya almenos una unidad de un producto que se quiere dar de alta
+		int stock = 0;
+		if(paramStock == null || paramStock.trim().length() == 0 ) {
+			msgError = "Debes dar de alta al menos una unidad de un producto";
+		}else {
+			// String precio convertimos en un double
+			stock = Integer.parseInt(paramStock); //falta controlar excepcion
 		}
 			
 		
@@ -85,14 +95,14 @@ public class AltaProductoServletJPA extends HttpServlet
 		else
 		{
 		
-			Producto p = new Producto(null, paramDescripcion, precio);
+			ProductoJPA p = new ProductoJPA(null, paramDescripcion, precio, stock);
 			System.out.println("vamos a dar de alta " + p);
-			productoService.darAltaUnproducto(p);
+			myProductoServiceJPA.darAltaUnproducto(p);
 			
 			//response.getWriter().append("ok grabó "  + p);
 			//despache la pagina lista-productos.jsp
 			
-			List<Producto> listaProductos = productoService.dameTodosLosProductos();
+			List<ProductoJPA> listaProductos = myProductoServiceJPA.dameTodosLosProductos();
 			
 			request.setAttribute("lista", listaProductos);
 			RequestDispatcher rd = request.getRequestDispatcher("/WEB-INF/vistas/lista-productos.jsp");

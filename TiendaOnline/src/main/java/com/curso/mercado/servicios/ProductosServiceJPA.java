@@ -5,7 +5,6 @@ import java.util.List;
 
 import javax.persistence.Query;
 
-import com.curso.mercado.entidades.Producto;
 import com.curso.mercado.entidades.ProductoJPA;
 import com.curso.mercado.persistencia.GenericDAO;
 import com.curso.mercado.persistencia.ProductoJPADAO;
@@ -14,7 +13,7 @@ import com.curso.mercado.persistencia.ProductoJPADAO;
 
 public class ProductosServiceJPA {
 	
-	private GenericDAO<Producto> dao;
+	private GenericDAO<ProductoJPA> dao;
 	
 			//new ProductoInMemoryDAO();
 	
@@ -27,7 +26,7 @@ public class ProductosServiceJPA {
 	}
 	
 	
-	public void darAltaUnproducto(Producto p) {
+	public void darAltaUnproducto(ProductoJPA p) {
 		// valida que p no es null
 		//validar descripcion 
 		//validar precio
@@ -36,7 +35,7 @@ public class ProductosServiceJPA {
 		
 	}
 	
-	public List<Producto>  dameTodosLosProductos()
+	public List<ProductoJPA>  dameTodosLosProductos()
 	{
 		//Query myConsulta = myEntMan.createQuery("SELECT t FROM TRABAJO t"); // traeme objetos de tipo trabajo
 		
@@ -52,9 +51,9 @@ public class ProductosServiceJPA {
 	}
 	
 	
-	public List<Producto> borrarProducto(int id)
+	public List<ProductoJPA> borrarProducto(int id)
 	{
-		Producto myProducto = dao.getByID(id);
+		ProductoJPA myProducto = dao.getByID(id);
 		if(myProducto == null)
 		{
 			throw new RuntimeException("ERROR: no esta el producto que quieres eliminar");

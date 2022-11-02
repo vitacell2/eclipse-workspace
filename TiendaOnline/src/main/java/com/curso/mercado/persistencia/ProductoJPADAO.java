@@ -7,9 +7,9 @@ import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
 import javax.persistence.Query;
 
-import com.curso.mercado.entidades.Producto;
+import com.curso.mercado.entidades.ProductoJPA;
 
-public class ProductoJPADAO implements GenericDAO<Producto>
+public class ProductoJPADAO implements GenericDAO<ProductoJPA>
 {
 	// 1. Crear una factoria de Entity Manager
 	private static EntityManagerFactory myEntManFact;
@@ -26,7 +26,7 @@ public class ProductoJPADAO implements GenericDAO<Producto>
 			
 	// AGREGAR UN PRODUCTO NUEVO CON JPA
 	@Override
-	public void add(Producto entidad)
+	public void add(ProductoJPA entidad)
 	{
 		try
 		{
@@ -44,10 +44,10 @@ public class ProductoJPADAO implements GenericDAO<Producto>
 	
 	// OBTENER TODA LA LISTA DE PRODUCTOS (listar)
 	@Override
-	public List<Producto> getAll()
+	public List<ProductoJPA> getAll()
 	{
-		Query q = myEntMan.createQuery("SELECT p FROM Producto p");
-		List<Producto> lista  = q.getResultList();
+		Query q = myEntMan.createQuery("SELECT myProducto FROM Producto myProducto");
+		List<ProductoJPA> lista  = q.getResultList();
 		return lista;
 	}
 
@@ -55,13 +55,13 @@ public class ProductoJPADAO implements GenericDAO<Producto>
 	
 	// OBTENER PRODUCTO POR SU ID
 	@Override
-	public Producto getByID(int id)
+	public ProductoJPA getByID(int id)
 	{
-		Producto myProducto = null; // ahora no contiene nada
+		ProductoJPA myProducto = null; // ahora no contiene nada
 		try
 		{
 			myEntMan.getTransaction().begin(); // comenzar la transaccion
-			myProducto = myEntMan.find(Producto.class, id); // encontrar el objeto
+			myProducto = myEntMan.find(ProductoJPA.class, id); // encontrar el objeto
 			myEntMan.getTransaction().commit();
 		}
 		catch (Exception e)
@@ -81,7 +81,7 @@ public class ProductoJPADAO implements GenericDAO<Producto>
 		try
 		{
 			myEntMan.getTransaction().begin(); // comenzar la transaccion
-			Producto myProducto = myEntMan.find(Producto.class, id); // encontrar el objeto
+			ProductoJPA myProducto = myEntMan.find(ProductoJPA.class, id); // encontrar el objeto
 			myEntMan.remove(myProducto); // eliminar un producto
 			myEntMan.getTransaction().commit(); // aplicar cambios
 		}
@@ -96,11 +96,11 @@ public class ProductoJPADAO implements GenericDAO<Producto>
 	
 	// MODIFICAR UN PRODUCTO DE LA BASE DE DATOS
 	@Override
-	public void update(Producto entidad)
+	public void update(ProductoJPA entidad)
 	{
 		try {
 			myEntMan.getTransaction().begin();
-			Producto myProducto = myEntMan.merge(entidad);
+			ProductoJPA myProducto = myEntMan.merge(entidad);
 			myEntMan.getTransaction().commit();
 		} catch (Exception e) {
 			// TODO Auto-generated catch block

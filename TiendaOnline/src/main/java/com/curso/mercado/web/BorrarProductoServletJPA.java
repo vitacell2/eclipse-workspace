@@ -15,7 +15,8 @@ import com.curso.mercado.servicios.ProductosServiceJPA;
 /**
  * Servlet implementation class BorrarProductoServletJPA
  */
-@WebServlet("/BorrarProductoServletJPA")
+//@WebServlet("/BorrarProductoServletJPA")
+@WebServlet(urlPatterns = "borrarProducto")
 public class BorrarProductoServletJPA extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        

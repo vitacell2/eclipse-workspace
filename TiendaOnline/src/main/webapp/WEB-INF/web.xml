@@ -1,8 +1,59 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" version="4.0">
-  <display-name>TiendaOnline</display-name>
-  <welcome-file-list>
-    <welcome-file>login.jsp</welcome-file>
- 
-  </welcome-file-list>
+<?xml version="1.0"?>
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+                         "http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app>
+ <display-name>TiendaOnline</display-name>
+ <servlet>
+  <servlet-name>AltaProductoServlet</servlet-name>
+  <display-name>AltaProductoServlet</display-name>
+  <servlet-class>com.curso.mercado.web.AltaProductoServlet</servlet-class>
+ </servlet>
+ <servlet>
+  <servlet-name>AltaProductoServletJPA</servlet-name>
+  <display-name>AltaProductoServletJPA</display-name>
+  <servlet-class>com.curso.mercado.web.AltaProductoServletJPA</servlet-class>
+ </servlet>
+ <servlet>
+  <servlet-name>LoginServlet</servlet-name>
+  <display-name>LoginServlet</display-name>
+  <servlet-class>com.curso.mercado.web.LoginServlet</servlet-class>
+ </servlet>
+ <servlet>
+  <servlet-name>ListaProductosServlet</servlet-name>
+  <display-name>ListaProductosServlet</display-name>
+  <servlet-class>com.curso.mercado.web.ListaProductosServlet</servlet-class>
+ </servlet>
+ <servlet>
+  <servlet-name>BorrarProductoServletJPA</servlet-name>
+  <display-name>BorrarProductoServletJPA</display-name>
+  <servlet-class>com.curso.mercado.web.BorrarProductoServletJPA</servlet-class>
+ </servlet>
+ <servlet>
+  <servlet-name>VentasServlet</servlet-name>
+  <display-name>VentasServlet</display-name>
+  <servlet-class>com.curso.mercado.web.VentasServlet</servlet-class>
+ </servlet>
+ <servlet-mapping>
+  <servlet-name>AltaProductoServlet</servlet-name>
+  <url-pattern>/altaProducto</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>AltaProductoServletJPA</servlet-name>
+  <url-pattern>/altaProductoJPA</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>LoginServlet</servlet-name>
+  <url-pattern>/login</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>ListaProductosServlet</servlet-name>
+  <url-pattern>/listaProductos</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>BorrarProductoServletJPA</servlet-name>
+  <url-pattern>/borrarProducto</url-pattern>
+ </servlet-mapping>
+ <welcome-file-list>
+  <welcome-file>/login.jsp</welcome-file>
+ </welcome-file-list>
 </web-app>

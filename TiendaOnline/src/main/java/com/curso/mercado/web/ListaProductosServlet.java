@@ -11,6 +11,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import com.curso.mercado.entidades.Producto;
+import com.curso.mercado.entidades.ProductoJPA;
 import com.curso.mercado.servicios.ProductosService;
 import com.curso.mercado.servicios.ProductosServiceJPA;
 
@@ -35,7 +36,7 @@ public class ListaProductosServlet extends HttpServlet {
 	{
 		// recuperar todos los productos
 		ProductosServiceJPA myService = new ProductosServiceJPA();
-		List<Producto> myLista = myService.dameTodosLosProductos();
+		List<ProductoJPA> myLista = myService.dameTodosLosProductos();
 		
 		// añadir el atributo lista con todos los productos  a la request
 		request.setAttribute("lista", myLista);

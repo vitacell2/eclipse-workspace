@@ -31,7 +31,7 @@ public class LoginServlet extends HttpServlet {
     	// CREO UN ATRIBUTO DE ÁMBITO DE APLICACIÓN
     	// es para todos los usuarios en todas las pagínas/Servlets/jsp
     	System.out.println("..... " + config.getServletContext());
-    	config.getServletContext().setAttribute("tituloTienda", "LAS MARAVILLAS");
+    	config.getServletContext().setAttribute("tituloTienda", "BAZAR ORIENTAL");
     }
 
     
