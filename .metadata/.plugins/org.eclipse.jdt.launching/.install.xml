@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <dirs>
+    <entry loc="C:\Users\Alumno\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20221004-1257" stamp="1666615332326"/>
     <entry loc="/home/vita/eclipse-jee-2022-09-R-linux-gtk-x86_64/eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_17.0.4.v20220903-1038" stamp="1662666807000"/>
     <entry loc="C:\Program Files\Java\jdk1.8.0_291\jre" stamp="1664786981768"/>
     <entry loc="C:\Program Files\Java\jdk1.8.0_291" stamp="1664787011831"/>
@@ -9,4 +10,5 @@
     <entry loc="C:\Program Files\Java\jdk1.8.0_291\bin" stamp="1664786981260"/>
     <entry loc="/home/vita/Desktop/eclipse-jee-2022-09-R-linux-gtk-x86_64/eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_17.0.4.v20220903-1038" stamp="1662666807000"/>
     <entry loc="/home/vita/Desktop/eclipse-jee-2022-09-R-linux-gtk-x86_64/eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_17.0.4.v20220903-1038/jre" stamp="1662666807000"/>
+    <entry loc="C:\Users\Alumno\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20221004-1257\jre" stamp="1666615332322"/>
 </dirs>

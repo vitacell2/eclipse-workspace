@@ -29,6 +29,7 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="E:\Curos-Java-Angular\eclipse-workspace\Proy012_SpringBoot_MVC"/>
 			<item value="E:\Curos-Java-Angular\eclipse-workspace\TiendaOnline"/>
 			<item value="E:\Curos-Java-Angular\git\begonaOlea\TWGRUPO5\TWGRUPO5\TiendaOnline"/>
 		</list>

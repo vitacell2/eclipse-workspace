@@ -5,7 +5,10 @@ import java.util.Objects;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.SequenceGenerator;
 import javax.persistence.Table;
 import javax.persistence.Transient;
 
@@ -20,8 +23,11 @@ public class ProductoJPA implements Serializable{
 	private static final long serialVersionUID = 1L;
 	
 	
+	
 	// ATRIBUTOS
 	@Id
+	//@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "PRODUCTOS_SEQ")
+	//@SequenceGenerator(sequenceName = "PRODUCTOS_SEQ", name = "PRODUCTOS_SEQ", allocationSize=1)
 	@Column (name = "ID_PRODUCTO")
 	private Integer idProducto;
 	@Column (name = "DESCRIPCION")
@@ -35,10 +41,11 @@ public class ProductoJPA implements Serializable{
 	private boolean isSelected;
 	
 	
+	
+	// CONSTRUCTORES
 	public ProductoJPA() {
-		//super();
+		super();
 	}
-
 
 	public ProductoJPA(Integer idProducto, String descripcion, double precio, int stock) {
 		super();
@@ -49,6 +56,7 @@ public class ProductoJPA implements Serializable{
 	}
 
 
+	
 	public Integer getIdProducto() {
 		return idProducto;
 	}
@@ -89,7 +97,7 @@ public class ProductoJPA implements Serializable{
 
 	@Override
 	public String toString() {
-		return "Producto [idProducto=" + idProducto + ", descripcion=" + descripcion + ", precio=" + precio + "]";
+		return "Producto [idProducto=" + idProducto + ", descripcion=" + descripcion + ", precio=" + precio + ", stock=" + stock + "]";
 	}
 
 

@@ -1,21 +1,4 @@
 INDEX VERSION 1.131+E:\Curos-Java-Angular\eclipse-workspace\.metadata\.plugins\org.eclipse.jdt.core
-2475723662.index
+472868213.index
 1865797976.index
-2712768145.index
-3082432303.index
-1171287934.index
-4051890650.index
-3065754839.index
-2862434127.index
-3978701677.index
-330472701.index
-452982582.index
-1824583931.index
-1336198770.index
-2871149605.index
-2062772139.index
-1671826400.index
-2544841668.index
-3602300423.index
-1540914985.index
-460756377.index
+3015123102.index

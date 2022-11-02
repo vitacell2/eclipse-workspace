@@ -14,9 +14,13 @@ import com.curso.mercado.entidades.Producto;
 import com.curso.mercado.servicios.ProductosService;
 
 @WebServlet(urlPatterns = "altaProductoJPA",loadOnStartup = 2)
-public class AltaProductoServletJPA extends HttpServlet {
+public class AltaProductoServletJPA extends HttpServlet
+{
+	
 	private static final long serialVersionUID = 1L;
+	
       
+	
 	//ATRIBUTOS
     ProductosService productoService = new ProductosService();
 	
@@ -63,7 +67,8 @@ public class AltaProductoServletJPA extends HttpServlet {
 		
 		//------------
 		
-		if(msgError.length()>0) {
+		if(msgError.length()>0)
+		{
 			System.out.println("FALLO: " + msgError);
 			
 			//despache la pagina alta-producto.jsp
@@ -72,13 +77,14 @@ public class AltaProductoServletJPA extends HttpServlet {
 			
 			request.setAttribute("errorBego", msgError);
 			
-			RequestDispatcher rd = request.getRequestDispatcher("alta-producto.jsp");
+			RequestDispatcher rd = request.getRequestDispatcher("alta-producto-JPA.jsp");
 			rd.forward(request, response);
 			
 			
-		}else {
+		}
+		else
+		{
 		
-			
 			Producto p = new Producto(null, paramDescripcion, precio);
 			System.out.println("vamos a dar de alta " + p);
 			productoService.darAltaUnproducto(p);
@@ -99,4 +105,6 @@ public class AltaProductoServletJPA extends HttpServlet {
 	
 	}//fin doPost
 
+	
+	
 }
