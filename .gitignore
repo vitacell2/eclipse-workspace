@@ -146,3 +146,5 @@ Servers/WildFly 17 Windows-Clase.server
 .metadata/.plugins/org.eclipse.wst.jsdt.core/variablesAndContainers.dat
 .metadata/.plugins/org.eclipse.wst.sse.core/task-tags.properties
 .metadata/version.ini
+RemoteSystemsTempFiles/.settings/org.eclipse.core.resources.prefs
+RemoteSystemsTempFiles/.project

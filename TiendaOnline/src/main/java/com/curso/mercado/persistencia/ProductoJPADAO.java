@@ -119,10 +119,22 @@ public class ProductoJPADAO implements GenericDAO<ProductoJPA>
 	// AGREGAR UN PRODUCTO NUEVO CON JPA
 	@Override
 	public void add(ProductoJPA entidad)
+	//public void add(ProductoJPA entidad, int id)
 	{
 		try
 		{
+			
+
+		    ProductoJPA myProductoJPA = new ProductoJPA();
+			
+			// asignar un ID (simular AUTOINCREMENT de una base de datos)
+			int newID = 0;
+			
+			newID = getUltimoIdProductoJPA();
+			
+			// inicia una nueva transaccional
 			myEntMan.getTransaction().begin();
+			myProductoJPA.setIdProducto(newID);
 			myEntMan.persist(entidad);
 			myEntMan.getTransaction().commit();
 		}
@@ -138,7 +150,7 @@ public class ProductoJPADAO implements GenericDAO<ProductoJPA>
 	@Override
 	public List<ProductoJPA> getAll()
 	{
-		Query q = myEntMan.createQuery("SELECT myProducto FROM ProductoJPA myProducto");
+		Query q = myEntMan.createQuery("SELECT myProducto FROM HR.PRODUCTOS myProducto");
 		List<ProductoJPA> lista  = q.getResultList();
 		return lista;
 	}
@@ -199,5 +211,31 @@ public class ProductoJPADAO implements GenericDAO<ProductoJPA>
 			myEntMan.getTransaction().rollback();
 		}
 	}
+	
+	/*
+	public List<ProductoJPA> findNRows(int id)
+	{
+        return myEntMan.createQuery("from "+ProductoJPA.getDescripcion() + " ORDER BY id DESC", ProductoJPA).setMaxResults(id).getResultList();
+	}*/
+	
+	/*
+    public List<ProductoJPA> getProductoMaxIdJPA()
+    {
+        Query myQuery = myEntMan.createQuery("SELECT max(ID_PRODUCTO) FROM HR.PRODUCTOS", ProductoJPA.class); // traeme objeto de tipo producto
+        return myQuery.getResultList();
+    }*/
+    
+    // conseguir el maximo ID, la funcion nos devuelve un integer
+    private int getUltimoIdProductoJPA()
+    {
+    	// para devolver objeto
+    	// resultado = myEntMan.createQuery("SELECT max(ID_PRODUCTO) FROM HR.PRODUCTOS", ProductoJPA.class).getSingleResult();
+    
+    	// para devolver Integer
+    	Integer resultado = 0;
+    	resultado = (Integer)myEntMan.createQuery("SELECT max(ID_PRODUCTO) FROM HR.PRODUCTOS").getSingleResult();
+    	resultado = resultado + 1;
+    	return resultado;
+    }
 	
 }
