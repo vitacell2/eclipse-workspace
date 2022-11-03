@@ -16,7 +16,7 @@ import com.curso.mercado.servicios.ProductosService;
 import com.curso.mercado.servicios.ProductosServiceJPA;
 
 
-@WebServlet(urlPatterns = "listaProductos")
+//@WebServlet(urlPatterns = "listaProductos")
 public class ListaProductosServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 

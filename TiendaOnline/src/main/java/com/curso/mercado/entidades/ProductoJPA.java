@@ -58,7 +58,7 @@ public class ProductoJPA implements Serializable{
 
 	
 	public Integer getIdProducto() {
-		return idProducto;
+		return this.idProducto;
 	}
 
 
@@ -68,7 +68,7 @@ public class ProductoJPA implements Serializable{
 
 
 	public String getDescripcion() {
-		return descripcion;
+		return this.descripcion;
 	}
 
 
@@ -78,7 +78,7 @@ public class ProductoJPA implements Serializable{
 
 
 	public double getPrecio() {
-		return precio;
+		return this.precio;
 	}
 
 
@@ -88,7 +88,7 @@ public class ProductoJPA implements Serializable{
 
 	
 	public int getStock() {
-		return stock;
+		return this.stock;
 	}
 	
 	public void setStock(int stock) {
@@ -97,7 +97,7 @@ public class ProductoJPA implements Serializable{
 
 	@Override
 	public String toString() {
-		return "Producto [idProducto=" + idProducto + ", descripcion=" + descripcion + ", precio=" + precio + ", stock=" + stock + "]";
+		return "ProductoJPA [idProducto=" + idProducto + ", descripcion=" + descripcion + ", precio=" + precio + ", stock=" + stock + "]";
 	}
 
 

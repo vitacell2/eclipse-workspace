@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 import com.curso.mercado.servicios.VentasService;
 import com.curso.mercado.servicios.excepciones.VentasException;
 
-@WebServlet(urlPatterns = "comprar")
+//@WebServlet(urlPatterns = "comprar")
 public class VentasServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 

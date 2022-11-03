@@ -27,6 +27,7 @@ h1{
 input, select, textarea{
     color: darkgrey;
     background-color: grey;
+    text-align: center;
 }
 
 textarea:focus, input:focus, select:focus {
@@ -50,7 +51,7 @@ input:placeholder{
 .div-user {
   margin: auto;
   width: 100%;
-  padding: 0px;
+  padding: 10px;
   text-align: center;
   text-decoration: underline;
 }

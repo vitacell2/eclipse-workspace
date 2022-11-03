@@ -8,8 +8,8 @@ public final class PoolConexiones {
 	
 	//atributos
 	private String url = "jdbc:oracle:thin:@localhost:49161:xe";
-	private String usr =  "SYSTEM"; // "HR"
-	private String clave = "oracle"; // "hr"
+	private String usr =  "HR"; // "HR" o "SYSTEM"
+	private String clave = "hr"; // "hr" o "oracle"
 	 
 	public PoolConexiones() {
 		//cargar driver

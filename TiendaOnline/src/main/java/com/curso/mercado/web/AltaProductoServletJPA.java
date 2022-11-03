@@ -13,7 +13,7 @@ import javax.servlet.http.HttpServletResponse;
 import com.curso.mercado.entidades.ProductoJPA;
 import com.curso.mercado.servicios.ProductosServiceJPA;
 
-@WebServlet(urlPatterns = "altaProductoJPA",loadOnStartup = 4)
+//@WebServlet(urlPatterns = "altaProductoJPA",loadOnStartup = 4)
 public class AltaProductoServletJPA extends HttpServlet
 {
 	
@@ -63,6 +63,10 @@ public class AltaProductoServletJPA extends HttpServlet
 		}else {
 			// String precio convertimos en un double
 			precio = Double.parseDouble(paramPrecio); //falta controlar excepcion
+			if (precio == (int)precio) // comprobar que no es un Int, y si es, lo convertimos a Double
+			{
+				precio = Double.valueOf(precio);
+			}
 		}
 		
 		// comprobamos que haya almenos una unidad de un producto que se quiere dar de alta
@@ -72,6 +76,10 @@ public class AltaProductoServletJPA extends HttpServlet
 		}else {
 			// String precio convertimos en un double
 			stock = Integer.parseInt(paramStock); //falta controlar excepcion
+			if(stock == 0)
+			{
+				msgError = "No puedes dar de alta 0 productos";
+			}
 		}
 			
 		

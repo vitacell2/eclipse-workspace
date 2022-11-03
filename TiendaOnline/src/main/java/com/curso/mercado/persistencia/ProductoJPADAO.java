@@ -1,5 +1,9 @@
 package com.curso.mercado.persistencia;
 
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.util.List;
 
 import javax.persistence.EntityManager;
@@ -7,10 +11,98 @@ import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
 import javax.persistence.Query;
 
+import com.curso.mercado.entidades.Producto;
 import com.curso.mercado.entidades.ProductoJPA;
 
 public class ProductoJPADAO implements GenericDAO<ProductoJPA>
 {
+	/*
+	// ATRIBUTOS
+	private Connection myConnection;
+	
+	public ProductoJPADAO (Connection myConn)
+	{
+		this.myConnection = myConn;
+	}
+	
+	
+	
+	@Override
+	public void add (ProductoJPA entidad)
+	{
+		try
+		{
+			int newId = 0;
+			// obtener el ultimo id
+			
+			newId = getUltimoIdProducto() + 1;
+		
+			PreparedStatement ps = con.prepareStatement(
+				"INSERT INTO HR.PRODUCTOS " + 
+				"(ID_PRODUCTO, DESCRIPCION, PRECIO, STOCK) " +
+				"VALUES (?, ?, ?, ?)");
+			ps.setInt(1, newId);
+			ps.setString(2, entidad.getDescripcion());
+			ps.setDouble(3, entidad.getPrecio());
+			ps.setInt(4, entidad.getStock());
+			ps.executeUpdate();
+			System.out.println("Se grabo OK el producto");
+		}
+		catch
+		 (SQLException e)
+		{
+			//e.printStackTrace();
+			throw new RuntimeException("DB JDBC API. " + e.getMessage(), e);
+		}
+	}
+	
+	
+	
+	private int getUltimoIdProducto() // para conseguir el ultimo ID del ultimo producto añadido
+	{
+		// mandamos una consulta para que nos de el valor del maximo ID
+		String consulta = "SELECT max(ID_PRODUCTO) FROM HR.PRODUCTOS";
+		
+		try
+		{
+			ResultSet rs = myConnection.createStatement().executeQuery(consulta);
+			if (rs.next()) // mover el sursor
+			{
+				return rs.getInt(1);
+			}
+			else
+			{
+				return 0;
+			}
+		}
+		catch (SQLException e)
+		{
+			e.printStackTrace();
+			throw new RuntimeException("ERROR: No pudó obtener el ultimo id");
+		}
+	}
+	
+	
+	
+	@Override
+	public ProductoJPA getByID(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void delete(int id) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void update(ProductoJPA entidad) {
+		// TODO Auto-generated method stub
+		
+	}*/
+	
+	
 	// 1. Crear una factoria de Entity Manager
 	private static EntityManagerFactory myEntManFact;
 	
@@ -46,7 +138,7 @@ public class ProductoJPADAO implements GenericDAO<ProductoJPA>
 	@Override
 	public List<ProductoJPA> getAll()
 	{
-		Query q = myEntMan.createQuery("SELECT myProducto FROM Producto myProducto");
+		Query q = myEntMan.createQuery("SELECT myProducto FROM ProductoJPA myProducto");
 		List<ProductoJPA> lista  = q.getResultList();
 		return lista;
 	}

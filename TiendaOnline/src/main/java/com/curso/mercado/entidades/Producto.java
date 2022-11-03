@@ -3,6 +3,8 @@ package com.curso.mercado.entidades;
 import java.io.Serializable;
 import java.util.Objects;
 
+import javax.persistence.Entity;
+
 public class Producto implements Serializable{
 	
 	private Integer idProducto;

@@ -42,9 +42,9 @@ input:placeholder{
 
 .div-login-text {
   margin: auto;
-  width: 10%;
+  width: 50%;
   border: 1px solid blue;
-  padding: 5px;
+  padding: 4px;
   text-align: center;
 }
 
