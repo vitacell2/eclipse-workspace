@@ -121,11 +121,11 @@ public class ProductoJPADAO implements GenericDAO<ProductoJPA>
 	public void add(ProductoJPA entidad)
 	//public void add(ProductoJPA entidad, int id)
 	{
+		
+		myEntMan.getTransaction().begin();
 		try
 		{
-			
 
-		    ProductoJPA myProductoJPA = new ProductoJPA();
 			
 			// asignar un ID (simular AUTOINCREMENT de una base de datos)
 			int newID = 0;
@@ -133,8 +133,8 @@ public class ProductoJPADAO implements GenericDAO<ProductoJPA>
 			newID = getUltimoIdProductoJPA();
 			
 			// inicia una nueva transaccional
-			myEntMan.getTransaction().begin();
-			myProductoJPA.setIdProducto(newID);
+		
+			entidad.setIdProducto(newID);
 			myEntMan.persist(entidad);
 			myEntMan.getTransaction().commit();
 		}
@@ -150,7 +150,7 @@ public class ProductoJPADAO implements GenericDAO<ProductoJPA>
 	@Override
 	public List<ProductoJPA> getAll()
 	{
-		Query q = myEntMan.createQuery("SELECT myProducto FROM HR.PRODUCTOS myProducto");
+		Query q = myEntMan.createQuery("SELECT p  FROM Producto p");
 		List<ProductoJPA> lista  = q.getResultList();
 		return lista;
 	}
@@ -202,8 +202,9 @@ public class ProductoJPADAO implements GenericDAO<ProductoJPA>
 	@Override
 	public void update(ProductoJPA entidad)
 	{
+		myEntMan.getTransaction().begin();
 		try {
-			myEntMan.getTransaction().begin();
+			
 			ProductoJPA myProducto = myEntMan.merge(entidad);
 			myEntMan.getTransaction().commit();
 		} catch (Exception e) {
@@ -233,8 +234,9 @@ public class ProductoJPADAO implements GenericDAO<ProductoJPA>
     
     	// para devolver Integer
     	Integer resultado = 0;
-    	resultado = (Integer)myEntMan.createQuery("SELECT max(ID_PRODUCTO) FROM HR.PRODUCTOS").getSingleResult();
+    	resultado = (Integer)myEntMan.createQuery("SELECT max(p.id) FROM Producto p").getSingleResult();
     	resultado = resultado + 1;
+    	System.out.println("*** getUltimoIdProductoJPA devuelve: " + resultado );
     	return resultado;
     }
 	

@@ -17,8 +17,10 @@ public class Ball
 		this.x = x;
 		this.y = y;
 		dx = (Math.random() < .5)?1:-1;
+		System.out.println("*** Ball dx: " + dx);
 		dy = (Math.random() < .5)?1:-1;
-		speed = 4;
+		System.out.println("*** Ball dy: " + dy);
+		speed = 2;
 	}
 
 	public void move()

@@ -1,0 +1,12 @@
+C:\cursoUDA\proyectos\004_SpringMVC\src\main\java\com\curso\controller\ProductosController.java
+C:\cursoUDA\proyectos\004_SpringMVC\src\main\java\com\curso\domain\repository\ProductoRepository.java
+C:\cursoUDA\proyectos\004_SpringMVC\src\main\java\com\curso\controller\PedidosController.java
+C:\cursoUDA\proyectos\004_SpringMVC\src\main\java\com\curso\domain\Producto.java
+C:\cursoUDA\proyectos\004_SpringMVC\src\main\java\com\curso\domain\repository\EnMemoriaProductoRepository.java
+C:\cursoUDA\proyectos\004_SpringMVC\src\main\java\com\curso\services\ProductoServiceImp.java
+C:\cursoUDA\proyectos\004_SpringMVC\src\main\java\com\curso\services\PedidosServiceImp.java
+C:\cursoUDA\proyectos\004_SpringMVC\src\main\java\com\curso\services\ProductoService.java
+C:\cursoUDA\proyectos\004_SpringMVC\src\main\java\com\curso\services\excepciones\ProductosException.java
+C:\cursoUDA\proyectos\004_SpringMVC\src\main\java\com\curso\services\PedidosService.java
+C:\cursoUDA\proyectos\004_SpringMVC\src\main\java\com\curso\controller\HomeController.java
+C:\cursoUDA\proyectos\004_SpringMVC\src\main\java\com\curso\domain\repository\JpaProductoRepository.java

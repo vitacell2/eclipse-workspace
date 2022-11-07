@@ -29,7 +29,7 @@ public class Paddle
 
 	public void move(int dy)
 	{
-		this.y+=dy;
+		this.y+= this.y + dy;
 		if(y < 0)
 			y = 0;
 		if(y > PongEnvironment.HEIGHT)

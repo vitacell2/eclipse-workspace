@@ -2,19 +2,22 @@ import java.awt.*;
 
 public class PongEnvironment
 {
-	public static final int WIDTH = 400;
-	public static final int HEIGHT = 300;
+	// SCREEN RESOLUTION
+	public static final int WIDTH = 256;
+	public static final int HEIGHT = 240;
 
-	private Ball ball;
-	private Paddle left, right;
+	// OBJECT ATTRIBUTES
+	private Ball myBall;
+	private Paddle myLeft, myRight;
 	private int leftScore = 0, rightScore = 0;
 	private boolean leftComputer, rightComputer;
 
-	public PongEnvironment()
+	// CONSTRUCTOR
+	public PongEnvironment() // The first ball spawn at game start
 	{
-		ball = new Ball(Color.BLACK, WIDTH/2, HEIGHT/2);
-		left = new Paddle(10, HEIGHT/2);
-		right = new Paddle(WIDTH-10, HEIGHT/2);
+		myBall = new Ball(Color.BLUE, WIDTH/2, HEIGHT/2);
+		myLeft = new Paddle(10, HEIGHT/2);
+		myRight = new Paddle(WIDTH-10, HEIGHT/2);
 	}
 
 	public void setComputer(boolean l, boolean r)
@@ -25,15 +28,15 @@ public class PongEnvironment
 
 	public Paddle getLeft()
 	{
-		return left;
+		return myLeft;
 	}
 
 	public Paddle getRight()
 	{
-		return right;
+		return myRight;
 	}
 
-	private void leftScore()
+	private void leftScore() // call this, when computer player scores
 	{
 		leftScore++;
 
@@ -45,12 +48,12 @@ public class PongEnvironment
 		{
 		}
 
-		ball = new Ball(Color.BLACK, WIDTH/2, HEIGHT/2);
-		left = new Paddle(10, HEIGHT/2);
-		right = new Paddle(WIDTH-10, HEIGHT/2);
+		myBall = new Ball(Color.BLUE, WIDTH/2, HEIGHT/2);
+		myLeft = new Paddle(10, HEIGHT/2);
+		myRight = new Paddle(WIDTH-10, HEIGHT/2);
 	}
 
-	private void rightScore()
+	private void rightScore() // call this, when human player scores
 	{
 		rightScore++;
 
@@ -62,39 +65,39 @@ public class PongEnvironment
 		{
 		}
 
-		ball = new Ball(Color.BLACK, WIDTH/2, HEIGHT/2);
-		left = new Paddle(10, HEIGHT/2);
-		right = new Paddle(WIDTH-10, HEIGHT/2);
+		myBall = new Ball(Color.BLUE, WIDTH/2, HEIGHT/2);
+		myLeft = new Paddle(10, HEIGHT/2);
+		myRight = new Paddle(WIDTH-10, HEIGHT/2);
 	}
 
 	public void update()
 	{
-		ball.move();
-		if(ball.getLocation().getY() - Ball.RADIUS <= 0)
-			ball.bounceTop();
-		else if(ball.getLocation().getY() + Ball.RADIUS >= HEIGHT)
-			ball.bounceTop();
-		else if(left.contains(ball))
-			ball.bounceSide();
-		else if(right.contains(ball))
-			ball.bounceSide();
-		else if(ball.getLocation().getX() < 0)
+		myBall.move();
+		if(myBall.getLocation().getY() - Ball.RADIUS <= 0)
+			myBall.bounceTop();
+		else if(myBall.getLocation().getY() + Ball.RADIUS >= HEIGHT)
+			myBall.bounceTop();
+		else if(myLeft.contains(myBall))
+			myBall.bounceSide();
+		else if(myRight.contains(myBall))
+			myBall.bounceSide();
+		else if(myBall.getLocation().getX() < 0)
 			rightScore();
-		else if(ball.getLocation().getX() > WIDTH)
+		else if(myBall.getLocation().getX() > WIDTH)
 			leftScore();
 
 		if(leftComputer)
-			left.moveTo((int)ball.getLocation().getY());
+			myLeft.moveTo((int)myBall.getLocation().getY());
 		if(rightComputer)
-			right.moveTo((int)ball.getLocation().getY());
+			myRight.moveTo((int)myBall.getLocation().getY());
 
 	}
 
 	public void draw(Graphics g)
 	{
-		ball.draw(g);
-		left.draw(g);
-		right.draw(g);
+		myBall.draw(g);
+		myLeft.draw(g);
+		myRight.draw(g);
 
 		g.drawString("Score: "+ leftScore, 25, 12);
 		g.drawString("Score: "+ rightScore, WIDTH-125, 12);

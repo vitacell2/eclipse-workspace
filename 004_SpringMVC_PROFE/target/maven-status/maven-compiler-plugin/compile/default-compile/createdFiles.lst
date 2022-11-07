@@ -1,0 +1,12 @@
+com\curso\domain\Producto.class
+com\curso\domain\repository\EnMemoriaProductoRepository.class
+com\curso\domain\repository\ProductoRepository.class
+com\curso\domain\repository\JpaProductoRepository.class
+com\curso\services\ProductoService.class
+com\curso\services\excepciones\ProductosException.class
+com\curso\services\PedidosServiceImp.class
+com\curso\services\ProductoServiceImp.class
+com\curso\controller\PedidosController.class
+com\curso\services\PedidosService.class
+com\curso\controller\HomeController.class
+com\curso\controller\ProductosController.class
